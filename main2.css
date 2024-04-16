@@ -1,0 +1,49 @@
+:root {
+    --background-dark: #0f4667;
+    --text-light: rgba(10, 10, 10, 0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1700px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  
+  body {
+    background-color: var(--background-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .success-container {
+    background-color: var(--text-lighter);
+    border-radius: var(--spacing-l);
+    padding: var(--spacing-xxl) var(--spacing-l);
+    text-align: center;
+    width: 50%;
+  }
+  
+  .success-heading {
+    color: var(--background-dark);
+    font-size: 3rem;
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  .success-message {
+    color: var(--text-light);
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-l);
+  }
