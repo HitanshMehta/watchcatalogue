@@ -115,3 +115,22 @@
     line-height: 1.4;
     word-spacing: 100vw;
   }
+
+  .card__button {
+    background-color: var(--text-lighter);
+    border: none;
+    border-radius: var(--spacing-s);
+    color: var(--background-dark);
+    font-size: 0.8rem;
+    padding: var(--spacing-s);
+    position: absolute;
+    bottom: var(--spacing-s);
+    left: var(--spacing-s);
+    right: var(--spacing-s);
+    cursor: pointer;
+    transition: background-color 200ms linear;
+  }
+  
+  .card__button:hover {
+    background-color: var(--text-light);
+  }
